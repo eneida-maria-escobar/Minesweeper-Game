@@ -1,3 +1,18 @@
+
+/*
+
+The main.cpp file initializes and controls the flow of the Minesweeper game. It starts by reading the configuration file (board_config.cfg) to determine 
+the game's dimensions (number of rows and columns) and the number of mines to be placed. It then creates an initial welcome window where the user can enter 
+their name, which is used for the leaderboard. Once the player starts the game, the main function sets up the game window with the specified dimensions 
+and initializes a Board object to handle the game logic, rendering, and interactions. Inside the main game loop, it continuously checks for events like mouse 
+clicks to reveal tiles, place flags, and handle other user actions until the window is closed or the game ends. Finally, the textures and resources are cleared 
+when the game concludes.
+
+
+*/
+
+
+
 #include <SFML/Graphics.hpp>
 #include <fstream>
 #include <iostream>
